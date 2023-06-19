@@ -1,0 +1,200 @@
+img{
+     max-width: 100%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+hr{
+    /* color: gray; */
+    border: 4px solid gray;
+    border-radius: 10%;
+}
+
+.netflixHeader{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.5) , rgba(0,0,0,.5)) , url("img/arkaplan.jpg");
+}
+.headerBody{
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+
+.accordion-item{
+    margin-top: .5rem;
+    border: none;
+}
+
+
+.accordion-button , .accordion-button:not(.collapsed){
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+.accordion-button::after{
+    background-image: url("plus.png");
+}
+
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url("eksi.png");
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+footer .row h6{
+    color: gray;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li{
+   margin-top: 1rem;
+}
+
+footer ul li a{
+    color: gray;
+    
+}
+.collapse ul li a{
+color: rgba(255, 255, 255, 0.712);
+font-size: large;
+
+}
+.collapse ul li a:hover{
+    color: red;
+    font-size: large;
+    
+    }
+.headerBody .button:focus{
+    color: black;
+    background-color: gray;
+}
+
+/***********BROWSE************/
+.browseParent img{
+    max-width: 80%;
+}
+
+/* body{
+   background-color: rgb(53, 53, 53);
+} */
+.netflixSmile{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: rgb(53, 53, 53);
+    /* height: 100vh; */
+}
+.browseHeaderBody{
+    display: flex;
+    /* border: 2px solid rgb(49, 48, 48);*/
+} 
+
+.browseParent{
+    /* border: 3px solid white; */
+    width: 90%;
+    margin: auto;
+}
+.box{
+     /* border:3px solid red; */
+    width: 85%;
+    background-color: rgba(20, 20, 20, 0.695);
+    box-shadow: rgb(8, 0, 0) 0px 5px 15px;
+    margin: auto;
+    margin-bottom: 5rem;
+    
+
+}
+.btn-browse{
+    border-radius: 0%;
+    border-style: double;
+    background-color: rgb(37, 36, 36);
+}
+.btn-browse:hover{
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+}
+.box ul li a img:hover{
+    border:2px solid white
+}
+.browseParent h2,h4{
+    color: white;
+}
+
+/*****İNDEX BROWSEEE*****/
+.menu{
+    width: 95%;
+    margin: auto;
+    background-color: black;
+    display: flex;
+}
+
+.netflixHeader1{
+    width: 95%;
+    margin: auto;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.5) , rgba(0,0,0,.5)) , url("img/arkaplan.jpg");
+}
+.browseIndexHeaderBody{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.browseIndexHeaderBody .button a:hover{
+    border:2px solid black;
+    color: white;
+    background-color: rgb(25, 25, 25);
+}
+.sec{
+    background-color: rgb(52, 51, 51);
+    width: 95%;
+    margin: auto;
+}
+
+/******HESAP******/
+.hesapHeader{
+    background-color:blanchedalmond;
+    margin: auto;
+    width: 95%;
+    
+}
+.hesapBody{
+width: 80%;
+  margin: auto;
+  border-bottom: 1px;  
+}
+.hesapBody input{
+    border: 3px solid black;
+
+}
+.hesapBody ul li a{
+    text-decoration: none;
+}
+.mobile-block{
+    display: none;
+}
+@media screen and (max-width:736px) {
+  .mobile-none
+{
+    display: none;
+}
+.mobile-block{
+    display: block;
+}
+/* .mobile-menu{
+    height: 100vh;
+} */
+}
+
+
